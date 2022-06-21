@@ -29,6 +29,7 @@ func IsPalindrome(s string) bool {
 		if letters[i] != letters[len(letters)-i-1] {
 			return false
 		}
+		return false
 	}
 	return true
 }
