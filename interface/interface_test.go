@@ -41,3 +41,17 @@ func TestNewAssert(t *testing.T) {
 	fmt.Println(w)
 	var _ io.Writer = (*bytes.Buffer)(nil)
 }
+
+func TestIncommensurability(t *testing.T) {
+	Incommensurability()
+}
+
+// 打印接口的动态类型
+func TestPrintInterfaceType(t *testing.T) {
+	PrintInterfaceType()
+}
+
+// 测试接口特性
+func TestInterfaceFeatures(t *testing.T) {
+	InterfaceFeatures()
+}
