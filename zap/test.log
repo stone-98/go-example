@@ -1,0 +1,4 @@
+{"level":"debug","ts":1657351506.5087862,"msg":"Trying to hit GET request for http://www.baidu.com"}
+{"level":"info","ts":1657351506.6707942,"msg":"Success! statusCode = 200 OK for URL http://www.baidu.com"}
+{"level":"debug","ts":1657351506.6716058,"msg":"Trying to hit GET request for 192.168.0.113"}
+{"level":"error","ts":1657351506.6716058,"msg":"Error fetching URL 192.168.0.113 : Error = Get \"192.168.0.113\": unsupported protocol scheme \"\""}
